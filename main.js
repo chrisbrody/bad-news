@@ -28,10 +28,8 @@ async function registerSW() {
     try {
       await navigator.serviceWorker.register('./sw.js');
       console.log('registed service worker');
-      
     } catch (e) {
       console.log(e);
-      
     }
   }
 }
