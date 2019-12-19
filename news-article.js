@@ -19,7 +19,7 @@ class NewsArticle extends HTMLElement {
                     width: 100%;
                 }
             </style>
-            <a href="${article.url}">
+            <a href="${article.url}" target="_blank">
                 <h2>${article.title}</h2>
                 <img src="${article.urlToImage || ''}">
                 <p>${article.description || ''}</p>
